@@ -1,0 +1,18 @@
+..
+
+Finished in 0.08131 seconds (files took 1.55 seconds to load)
+2 examples, 0 failures
+
+Coverage report generated for RSpec to /home/ec2-user/environment/hw-acceptance-unit-test-cycle/rottenpotatoes/coverage. 30 / 61 LOC (49.18%) covered.
+
+MoviesController
+  Get list of all movies by same director
+    when the specified movie has a director
+      should get the director name for the particular movie and find all movies with same director
+    when the specified movie has no director
+      redirect to home page when the movie does not have any director
+
+Finished in 0.05875 seconds (files took 1.59 seconds to load)
+2 examples, 0 failures
+
+Coverage report generated for Cucumber Features, RSpec to /home/ec2-user/environment/hw-acceptance-unit-test-cycle/rottenpotatoes/coverage. 48 / 61 LOC (78.69%) covered.
